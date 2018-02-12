@@ -20,11 +20,9 @@ set statusline+=%*
 
 let g:neomake_cpp_enabled_makers=['gcc']
 let g:neomake_cpp_gcc_maker = {
-    \ 'exe' : 'g++',
-    \ 'args': [ 
-        \'-I/path/to/include/dir'
-        ],
-\ }
+            \ 'exe' : 'g++',
+            \ 'args': ['-I/path/to/include/dir']
+            \ }
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
